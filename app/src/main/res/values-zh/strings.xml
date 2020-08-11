@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">你好</string>
     <string name="button1_name">按钮1</string>
-    <string name="button2_name">按钮2</string>
+    <string name="button2_name">frame_layout</string>
     <string name="button3_name">按钮3</string>
     <string name="practice_title">Android 练习</string>
     <string name="button_1">button 1</string>
