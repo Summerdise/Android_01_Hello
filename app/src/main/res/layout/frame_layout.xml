@@ -14,8 +14,9 @@
         android:layout_height="80dp"
         >
 
-        <Button
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/frameTitle"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:background="#FFFFFF"
@@ -37,6 +38,7 @@
             >
 
             <Button
+                android:id="@+id/frameBtn1"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:layout_marginTop="20dp"
