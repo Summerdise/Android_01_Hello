@@ -4,6 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingHorizontal="40dp"
     tools:context=".FrameActivity">
 
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="white"
+            android:text="@string/practice_title"
+            android:textAllCaps="false"
+            android:textSize="18dp" />
+
+    </FrameLayout>
 </LinearLayout>
