@@ -15,4 +15,6 @@
     <string name="button_9">button 9</string>
     <string name="button_10">button 10</string>
     <string name="ConstraintBackBtn">Hello!</string>
+    <string name="signUp">Sign up</string>
+    <string name="login">Login</string>
 </resources>
