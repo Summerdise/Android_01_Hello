@@ -15,6 +15,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Button constraintEntryBtn = findViewById(R.id.mainBtn1);
+        constraintEntryBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ConstraintActivity.class);
+                startActivity(intent);
+            }
+        });
+
         Button frameEntryBtn = findViewById(R.id.mainBtn2);
         frameEntryBtn.setOnClickListener(new View.OnClickListener() {
             @Override
